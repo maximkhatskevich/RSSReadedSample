@@ -21,6 +21,7 @@
 		B689C239170B771E00E9E5EB /* NSDictionary+RSS.m in Sources */ = {isa = PBXBuildFile; fileRef = B689C233170B771E00E9E5EB /* NSDictionary+RSS.m */; };
 		B689C23A170B771E00E9E5EB /* UIStoryboard+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = B689C235170B771E00E9E5EB /* UIStoryboard+Helpers.m */; };
 		B689C23B170B771E00E9E5EB /* UIView+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = B689C237170B771E00E9E5EB /* UIView+Helpers.m */; };
+		B689C23D170B77F200E9E5EB /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = B689C23C170B77F200E9E5EB /* ReadMe.md */; };
 		B6E95CC2170A66A700984578 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E95CC1170A66A700984578 /* UIKit.framework */; };
 		B6E95CC4170A66A700984578 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E95CC3170A66A700984578 /* Foundation.framework */; };
 		B6E95CC6170A66A700984578 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E95CC5170A66A700984578 /* CoreGraphics.framework */; };
@@ -56,6 +57,7 @@
 		B689C235170B771E00E9E5EB /* UIStoryboard+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIStoryboard+Helpers.m"; path = "RSSReaderSamle/UIStoryboard+Helpers.m"; sourceTree = "<group>"; };
 		B689C236170B771E00E9E5EB /* UIView+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Helpers.h"; path = "RSSReaderSamle/UIView+Helpers.h"; sourceTree = "<group>"; };
 		B689C237170B771E00E9E5EB /* UIView+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Helpers.m"; path = "RSSReaderSamle/UIView+Helpers.m"; sourceTree = "<group>"; };
+		B689C23C170B77F200E9E5EB /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.md; sourceTree = "<group>"; };
 		B6E95CBE170A66A700984578 /* RSSReaderSamle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSReaderSamle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E95CC1170A66A700984578 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B6E95CC3170A66A700984578 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -114,6 +116,7 @@
 		B6E95CB5170A66A700984578 = {
 			isa = PBXGroup;
 			children = (
+				B689C23C170B77F200E9E5EB /* ReadMe.md */,
 				B689C217170B57E400E9E5EB /* RSSReaderSamleResources */,
 				B6E95D77170AE93200984578 /* Lib */,
 				B6E95CC7170A66A700984578 /* RSSReaderSamle */,
@@ -262,6 +265,7 @@
 				B689C22C170B739800E9E5EB /* google.png in Resources */,
 				B689C22D170B739800E9E5EB /* google@2x.png in Resources */,
 				B689C22F170B76F600E9E5EB /* default.css in Resources */,
+				B689C23D170B77F200E9E5EB /* ReadMe.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

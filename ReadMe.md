@@ -1,0 +1,1 @@
+Sample RSS reader app. Simple RSS/XML parsing, UI customization, native CSS styling, etc.
