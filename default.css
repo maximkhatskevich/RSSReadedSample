@@ -1,0 +1,12 @@
+activity-indicator-view
+{
+    style: large;
+    color: green;
+}
+
+view#smallActivityBg
+{
+	border-radius: 5;
+	background-color: black;
+	opacity: 0.6;
+}

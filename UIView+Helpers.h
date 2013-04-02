@@ -10,4 +10,7 @@
 
 @interface UIView (Helpers)
 
+- (void)show;
+- (void)hide;
+
 @end

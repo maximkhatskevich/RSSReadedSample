@@ -17,6 +17,7 @@
 
 - (id)objectAtIndexSafe:(NSUInteger)index
 {
+//    NSLog(@"self.count = %d, index = %d", self.count, index);
     return ([self isValidIndex:index] ? self[index] : nil);
 }
 

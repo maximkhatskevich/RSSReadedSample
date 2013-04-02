@@ -10,4 +10,9 @@
 
 @interface DetailViewController : UIViewController
 
+@property (nonatomic, readonly) UIWebView *webView;
+@property (nonatomic, copy) NSString *externalLink;
+
+- (IBAction)openInBrowser:(id)sender;
+
 @end

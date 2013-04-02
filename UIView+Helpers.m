@@ -10,4 +10,14 @@
 
 @implementation UIView (Helpers)
 
+- (void)show
+{
+    self.hidden = NO;
+}
+
+- (void)hide
+{
+    self.hidden = YES;
+}
+
 @end
