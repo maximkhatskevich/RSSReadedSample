@@ -95,7 +95,7 @@
     //===
     
     [self setViewControllers:tabRootViewControllers];
-    self.selectedIndex = 3;
+    self.selectedIndex = 0;
 }
 
 - (void)didReceiveMemoryWarning

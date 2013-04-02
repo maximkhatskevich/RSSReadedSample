@@ -7,12 +7,23 @@
 //
 
 #import "AppDelegate.h"
+#import <PXEngine/PXEngine.h> 
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    // free license, makes splash screen of an app featured by Pixate!
+    [PXEngine licenseKey:@"LJMNE-99D0A-7839A-3ENQV-8I47A-VG01D-HONDU-DP0T0-E4P4K-L9QP9-UH6LC-BKCBL-HV8K5-EGO8G-VCSNK-PA"
+                 forUser:@"maxim.khatskevich@gmail.com"];
+    
+    [PXEngine currentApplicationStylesheet].monitorChanges = YES;
+    NSLog(@"default.css filePath: %@", [PXEngine currentApplicationStylesheet].filePath);
+    
+    //===
+    
     return YES;
 }
 							
